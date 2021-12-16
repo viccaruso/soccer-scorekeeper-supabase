@@ -70,7 +70,7 @@ teamTwoSubtractButton.addEventListener('click', () => {
     displayCurrentGameEl();
 });
 
-finishGameButton.addEventListener('click', async () => {
+finishGameButton.addEventListener('click', async() => {
 
     // create a new game using the current game state
     const currentGame = {

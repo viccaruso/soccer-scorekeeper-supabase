@@ -10,12 +10,7 @@ export async function createGame(game) {
     const response = await client
         .from('games')
         .insert([
-            {
-                name1: game.name1,
-                name2: game.name2,
-                score1: game.score1,
-                score2: game.score2
-            },
+            newGame,
         ]);
 
     return checkError(response);

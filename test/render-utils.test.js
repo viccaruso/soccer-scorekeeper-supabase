@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { renderGame, renderTeam } from '../render-utils.js'
+import { renderGame, renderTeam } from '../render-utils.js';
 const test = QUnit.test;
 
 test('renderGame(game) should return DOM node', (expect) => {
