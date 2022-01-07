@@ -80,7 +80,7 @@ finishGameButton.addEventListener('click', async() => {
         score2: score2
     };
 
-    createGame(currentGame);
+    await createGame(currentGame);
     // re-fetch the games to get the updated state
     
     // reassign the past games state to the re-fetched, updated games
